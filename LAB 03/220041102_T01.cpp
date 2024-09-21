@@ -8,7 +8,7 @@ class Counter {
         int incrementing;
 
     public:
-        Counter() : count(0),incrementing(1){}
+        Counter(): count(0),incrementing(1){}
         Counter(int start) : count(start),incrementing(1){}
         Counter(int start, int increment) : count(start), incrementing(increment){}
 

@@ -52,7 +52,7 @@ int main(){
     t.print();
     t.advance(34,56,34);
     t.print();
-    t.reset(3, 59, 59);
+    t.reset(4, 59, 59);
     t.print();
 
     return 0;

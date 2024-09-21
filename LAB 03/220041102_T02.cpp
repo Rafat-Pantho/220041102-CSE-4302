@@ -38,7 +38,7 @@ class Temperature{
         }
 
         void print() {
-            cout<< "The temperature is "<<temp<<" "<<unit<<"."<<endl;
+            cout<< "The temperature is: "<<temp<<" "<<unit<<"."<<endl;
         }
 };
 
