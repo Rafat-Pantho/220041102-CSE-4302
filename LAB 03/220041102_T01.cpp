@@ -13,12 +13,15 @@ class Counter {
         void setIncrementStep(int step){
             incrementing = step;
         }
+
         int getCount(){
             return count;
         }
+
         void increment(){
             count += incrementing;
         }
+
         void resetCount(){
             count = 0;
         }
