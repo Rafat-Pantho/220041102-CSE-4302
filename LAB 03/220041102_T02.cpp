@@ -51,7 +51,10 @@ int main(){
     t.print();
     t.assign(0, "C");
 
-    double conv_temp = t.convert("F");
+    string new_unit;
+    cout<<"Enter new unit: ";
+    cin>>new_unit;
+    double conv_temp = t.convert(new_unit);
     cout<<"Converted temperature is: "<<conv_temp<<endl;
 
     return 0;
