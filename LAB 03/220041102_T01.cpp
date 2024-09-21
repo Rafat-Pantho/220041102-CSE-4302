@@ -9,6 +9,8 @@ class Counter {
 
     public:
         Counter() : count(0),incrementing(1){}
+        Counter(int start) : count(start),incrementing(1){}
+        Counter(int start, int increment) : count(start), incrementing(increment){}
 
         void setIncrementStep(int step){
             incrementing = step;
@@ -35,5 +37,6 @@ int main(){
     cout << c.getCount() << endl;
     c.resetCount();
     cout << c.getCount() << endl;
+
     return 0;
 }

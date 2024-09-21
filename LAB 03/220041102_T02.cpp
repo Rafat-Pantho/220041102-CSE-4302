@@ -10,6 +10,7 @@ class Temperature{
 
     public:
         Temperature(): temp(0.0),unit("C"){}
+        Temperature(double t, string u): temp(t), unit(u){}
 
         void assign(double a, string n){
             if(n!="C"&&n!="F"&&n!="K"){
