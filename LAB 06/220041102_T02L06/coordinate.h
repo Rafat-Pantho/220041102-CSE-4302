@@ -5,8 +5,8 @@ class coordinate{
     private:
         float x,y;
     public:
-        coordinate(){}
-        coordinate(float a, float b){}
+        coordinate() : x(0), y(0) {}
+        coordinate(float a, float b) : x(a), y(b) {}
         ~coordinate(){}
 
         void display();

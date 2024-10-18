@@ -4,8 +4,6 @@
 using namespace std;
 
 
-coordinate::coordinate():x(0),y(0){}
-coordinate::coordinate(float a,float b):x(a),y(b){}
 
 
 void coordinate::display(){
